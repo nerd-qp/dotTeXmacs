@@ -2,7 +2,7 @@
 TeXmacs scheme extension scripts.
 
 # Functionality implemented
-This repository contains my daily .TeXmacs configuration. I implement two functionalities as of now, all based on original code, and additional hacking on my own. In addition, it also includes copy-paste code from [slowphil](https://github.com/slowphil/zotexmacs) for better Zotero-TeXmacs integration.
+This repository contains my daily .TeXmacs configuration. I implement two functionalities as of now, all based on original code, added on top of that, additional hacking on my own. In addition, it also includes copy-paste code from [slowphil](https://github.com/slowphil/zotexmacs) for better Zotero-TeXmacs integration.
 
 Funtionalies:
 
