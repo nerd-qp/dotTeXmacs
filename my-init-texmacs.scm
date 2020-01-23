@@ -42,7 +42,7 @@
                                 'doc-author
                                 'author-data
                                 'author-name 0))
-         (doc-date (tree-ref doc-data 'doc-date 'date 0))
+         (doc-date (tree-ref doc-data 'doc-date 0))
          (front-matter "---\n"))
     (when title
       (set! front-matter (string-append front-matter
