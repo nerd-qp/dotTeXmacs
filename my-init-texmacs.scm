@@ -1,6 +1,8 @@
 ;; Stupid lazy loading. Need to explicitly call this out.
 (use-modules (texmacs menus file-menu))
 (use-modules (texmacs menus tools-menu))
+(use-modules (convert markdown init-markdown))
+;(use-modules (convert hugo-html init-hugo-html))
 
 (menu-bind file-menu
            (former)
