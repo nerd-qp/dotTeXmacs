@@ -4,6 +4,17 @@
 (use-modules (convert markdown init-markdown))
 ;(use-modules (convert hugo-html init-hugo-html))
 
+;; My keybindings
+(delayed
+  (lazy-keyboard-force)
+  (kbd-map
+   ;; I can't change the meta key easily, since it's written in the C++ source code.
+   ;; Writing "kbd-copy" just prints out the string directly in the document,
+   ;; which is quite interesting.
+   ;; Also need to look at this Emacs plug-in. Be careful, don't waste too much time into this :)
+   ("A-w" (kbd-copy))
+   ("emacs ?" (redo 0))))
+
 (menu-bind file-menu
            (former)
            ---
